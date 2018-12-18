@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-angular-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloAngular/HelloAngularWebPart.js",
+          "manifest": "./src/webparts/helloAngular/HelloAngularWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloAngularWebPartStrings": "lib/webparts/helloAngular/loc/{locale}.js"
+  }
+}

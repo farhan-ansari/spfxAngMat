@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "angular-webpart-client-side-solution",
+    "id": "63cb4bca-99a8-4311-b5d9-329362f2ce17",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/angular-webpart.sppkg"
+  }
+}
